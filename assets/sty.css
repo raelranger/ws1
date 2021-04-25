@@ -1,7 +1,30 @@
 /* Table Setting */
 /* 1.Section Navbar */
+/* 2.Section Carusel */
 
 /*Section Navbar  */
+html,body{
+    height: 100%;
+}
 .bg-alpha{
     background: rgba(0, 0, 0, 0.75);
+}
+
+/* Section Carousel */
+.carousel,
+.carousel-item,
+.carousel-inner,
+.carousel-inner .active{
+    height: 100%;
+}
+.carousel-imge{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-caption{
+    left: 20%;
+    top: 80%;
+    
 }

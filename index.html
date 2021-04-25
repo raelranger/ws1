@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- Section Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-alpha">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-alpha fixed-top">
         <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="/docs/4.6/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -36,6 +36,58 @@
             </div>  
         </div>
     </nav>
+
+    <!-- Section Carousel -->
+    <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+                <div class="carousel-imge" style="background-image: url('https://images.unsplash.com/photo-1604898426702-4b4f1c5e973a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2584&q=80');">
+                    <div class="carousel-caption">
+                        <h1 class="text-danger font-weight-bold ">Foxi X Summer</h1>
+                    </div>
+                    
+                </div>
+          </div>
+          <div class="carousel-item">
+                <div class="carousel-imge" style="background-image: url('https://images.unsplash.com/photo-1445205170230-053b83016050?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80');">
+                    <div class="carousel-caption">
+                        <h1 class="text-primary font-weight-bold">Foxi X Winter</h1>
+                    </div> 
+                    
+                </div>
+          </div>
+          <div class="carousel-item">
+                <div class="carousel-imge" style="background-image: url('https://images.unsplash.com/photo-1483985988355-763728e1935b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');">
+                    <div class="carousel-caption">
+                        <h1 class="text-success font-weight-bold">Foxi X Sping</h1>
+                    </div> 
+                 
+                </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </section>
+
+    <!-- Section About Index -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Fluid jumbotron</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div>
+
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
