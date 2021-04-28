@@ -2,12 +2,27 @@
 /* 1.Section Navbar */
 /* 2.Section Carusel */
 
-/*Section Navbar  */
+/*Section Setting  */
 html,body{
     height: 100%;
 }
 .bg-alpha{
     background: rgba(0, 0, 0, 0.75);
+}
+.border-h1-about-index{
+    position: relative;
+
+}
+.border-h1-about-index::after{
+    position: absolute;
+    content: "";
+    width: 114px;
+    height: 1px;
+    bottom: 0%;
+    left: 50%;
+    margin-left: -5%;
+    background: #999;
+    
 }
 
 /* Section Carousel */
