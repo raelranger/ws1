@@ -1,6 +1,8 @@
 /* Table Setting */
 /* 1.Section Navbar */
 /* 2.Section Carusel */
+/* 3.Section Blog Index */
+/* 4.Section Footer */
 
 /*Section Setting  */
 html,body{
@@ -11,6 +13,8 @@ html,body{
 }
 .border-h1-about-index{
     position: relative;
+    padding: 20px 0;
+    margin-bottom: 25px;
 
 }
 .border-h1-about-index::after{
@@ -43,3 +47,37 @@ html,body{
     top: 80%;
     
 }
+
+/* Section Blog Index */
+.warp-img-card{
+    position: relative;
+    padding-top: 100%;
+    overflow: hidden;
+    
+}
+.warp-img-card img{
+    position: absolute;
+    top: 0px;
+    transition: 1s;
+}
+.warp-img-card img::hover{
+    transform: scale(1.2);
+      
+}
+
+/* Section Footer */
+.semi-footer{
+    background: #1b1b1b;
+    color: #85929E;
+}
+.footer-link{
+    color: #fff;
+}
+.grop-drawer{
+    list-style: none;
+    padding: 10px 0;
+}
+
+
+
+
