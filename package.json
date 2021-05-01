@@ -18,6 +18,7 @@
   "homepage": "https://github.com/raelranger/studyws#readme",
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "jarallax": "^1.12.5",
     "jquery": "^3.6.0",
     "live-server": "^1.2.1",
     "popper.js": "^1.16.1"
