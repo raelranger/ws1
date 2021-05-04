@@ -4,6 +4,9 @@
 /* 3.Section Blog Index */
 /* 4.Section Footer */
 
+/* About */
+/* 1.Section Header */
+
 /*Section Setting  */
 html,body{
     height: 100%;
@@ -77,6 +80,31 @@ html,body{
     list-style: none;
     padding: 10px 0;
 }
+
+/* Section Header */
+.jarallax-header{
+    position: relative;
+    display: block;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    color: #fff;
+    text-align: center;
+}
+.is-1 small{
+    display: block;
+    font-size: .75rem;
+    line-height: 1.5;
+    letter-spacing: .0375rem;
+    font-weight: 500;
+}
+.button.is-1{
+    margin-top: 18px;
+    border: 1px solid #fff;
+    padding: 8px 30px;
+    
+}
+
+
 
 
 
