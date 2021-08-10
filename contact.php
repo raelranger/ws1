@@ -12,34 +12,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- Icon/logo title page -->
     <link rel="icon" type="imge" href="assets/Foxi.png">
-    <title>Foxi Blog Detail</title>
+    <title>Foxi Contect</title>
 </head>
 <body>
     <!-- Section Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-alpha fixed-top">
-        <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/Foxi.png" width="35" height="30" class="d-inline-block align-top" alt="">
-                    Foxi
-                </a>
-        
-            <div class="collapse navbar-collapse" id="navbarKey">
-                <ul class="navbar-nav ml-auto text-center">
-                    <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                </li>
-            </div>  
-        </div>
-    </nav>
+    <?php include_once('includes/navbar.php')?>
 
     <!-- Section Header -->
     <header class="jarallax-header" data-jarallax='{"speed":0.6}' data-jarallax-video="mp4:assets/video1.mp4">
@@ -57,9 +34,65 @@
     </header>
 
     <!-- Section Blog -->
-    <section class="container">
+    <section class="container py-5">
+        <div class="row text-center">
+            <div class="col-12">
+                <h2 class="border-h1-about-index text-center">รายละเอียด</h2>
+            </div>
+            <div class="col-sm-4 mb-2">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Address</h4>
+                        <p class="card-text">Brabra....</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-2">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Tell</h4>
+                        <p class="card-text">(+66).....</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-2">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Mail</h4>
+                        <p class="card-text">Foxi@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="row">
-            
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-tital">แบบฟอร์มติดต่อ</h5>
+                        <form>
+                            <div class="form-row">
+                              <div class="form-group col-md-4">
+                                    <label for="name">ผู้ติดต่อ</label>
+                                <input type="text" id="name" class="form-control" placeholder="ชื่อผู้ติดต่อ">
+                              </div>
+                              <div class="form-group col-md-4">
+                                    <label for="phone">เบอร์ผู้ติดต่อ</label>
+                                <input type="text" id="phone" class="form-control" placeholder="เบอร์ผู้ติดต่อ">
+                              </div>
+                              <div class="form-group col-md-4">
+                                    <label for="email">อีเมลผู้ติดต่อ</label>
+                                <input type="text" id="email" class="form-control" placeholder="email@">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">รายละเอียด</label>
+                                <textarea class="form-control" id="message" " rows="10">ข้อความที่ต้องการติดต่อ</textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary d-block mx-auto">ส่งข้อความ</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     
@@ -67,7 +100,7 @@
     <footer class="semi-footer p-5 text-center text-md-left">
         <div class="row">
             <div class="section-footer col-md-4">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img src="assets/Foxi.png" width="35" height="30" class="d-inline-block align-top" alt="">
                     <span class="text-danger"> Foxi</span> 
                 </a>

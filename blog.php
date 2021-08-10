@@ -16,30 +16,7 @@
 </head>
 <body>
     <!-- Section Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-alpha fixed-top">
-        <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/Foxi.png" width="35" height="30" class="d-inline-block align-top" alt="">
-                    Foxi
-                </a>
-        
-            <div class="collapse navbar-collapse" id="navbarKey">
-                <ul class="navbar-nav ml-auto text-center">
-                    <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </div>  
-        </div>
-    </nav>
+    <?php include_once('includes/navbar.php')?>
 
     <!-- Section Header -->
     <header class="jarallax-header" data-jarallax='{"speed":0.6}' data-jarallax-video="mp4:assets/video1.mp4">
@@ -167,7 +144,7 @@
     <footer class="semi-footer p-5 text-center text-md-left">
         <div class="row">
             <div class="section-footer col-md-4">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img src="assets/Foxi.png" width="35" height="30" class="d-inline-block align-top" alt="">
                     <span class="text-danger"> Foxi</span> 
                 </a>
